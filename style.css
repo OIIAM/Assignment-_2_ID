@@ -2,13 +2,15 @@
   margin: 10;
  }
  .container{
-  background-image:url("Images/NP_School_Map.JPG");
+  background-image:url("Images/NP_School_Map\(Revised\).jpg");
   background-size: contain;
   background-repeat:no-repeat;
   background-position: center;
  }
- /* Header*/
+ /* Header
  nav {
+  margin: 0px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   background: gray;
@@ -22,7 +24,7 @@
   display: block;
   width: 150px; 
   margin-right: 30px; 
-}
+} */
 
  /*Background*/
  .bgimg{
@@ -48,6 +50,7 @@ button{
 }
   /* SOE */
 .soe{
+  color: rgb(100, 232, 255);
   right: -310px;
   bottom: 290px;
 }
