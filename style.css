@@ -48,26 +48,14 @@ button{
 }
   /* SOE */
 .soe{
-  /* position: relative;
-  max-width: 800px;
-  background-color: transparent;
-  border: transparent;
-  margin: 0 auto; */
-  right: -310px;
-  bottom: 280px;
-  /* cursor:pointer; */
+  right: -280px;
+  bottom: 230px;
 }
 
 /* ICT */
 .ict{
-  /* position: relative; 
-  max-width: 800px;
-  background-color: transparent;
-  border: transparent;
-  margin: 0 auto; */
-  right: -350px;
-  bottom: 150px;
-  /* cursor:pointer; */
+  right: -360px;
+  bottom: 0px;
 }
 
 /* HS */
@@ -248,4 +236,11 @@ button{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.contact {
+  position: relative;
+  max-width: 190px;
+  bottom:350px;
+  left: 600px;
 }

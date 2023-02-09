@@ -161,3 +161,49 @@ if (event.target == modalDE) {
     modalDE.style.display = "none";
 }
 }
+
+
+//API
+
+// $(document).ready(function() {
+//     const APIKEY = "63b6283b969f06502871a97d";
+    
+
+//     $("#submit").on("click", function(e) {
+//         //prevent default action of the button 
+//         e.preventDefault();
+        
+//         let Name = $("#nameT").val();
+//         let Email = $("emailT").val();
+//         let feedback = $("feedbackT").val();
+
+//         let jsondata  = {
+//             "name": Name,
+//             "email": Email,
+//             "Feedback": feedback
+//         };
+
+// let settings = {
+//     "async": true,
+//     "crossDomain": true,
+//     "url": "https://interactivedev-9c9d.restdb.io/rest/assignment2",
+//     "method": "POST",
+//     "headers": {
+//       "content-type": "application/json",
+//       "x-apikey": APIKEY,
+//       "cache-control": "no-cache"
+//     },
+//     "processData": false,
+//       "data": JSON.stringify(jsondata),
+//       "beforeSend": function() {
+//         $("#submit").prop("disabled",true);
+//         $("#add-contact-form").trigger("reset");
+//       }
+//   }
+  
+//   $.ajax(settings).done(function (response) {
+//     console.log(response);
+//     $("#submit").prop("disabled", false);
+//   })
+// })
+// });
