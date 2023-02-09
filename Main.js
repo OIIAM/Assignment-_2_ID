@@ -162,6 +162,26 @@ if (event.target == modalDE) {
 }
 }
 
+/* IDS */
+var modalIDS = document.getElementById("IDSM");
+
+var btnIDS = document.getElementById("IDS");
+
+var spanIDS = document.getElementsByClassName("IDS-close")[0];
+
+btnIDS.onclick = function () {
+    modalIDS.style.display = "block";
+}
+spanIDS.onclick = function() {
+    modalIDS.style.display = "none";
+}
+
+window.onclick = function (event) {
+if (event.target == modalIDS) {
+    modalIDS.style.display = "none";
+}
+}
+
 
 //API
 

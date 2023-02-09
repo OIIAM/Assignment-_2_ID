@@ -49,51 +49,70 @@ button{
   cursor:pointer;
 }
   /* SOE */
-.soe{
+.soe1{
   color: rgb(100, 232, 255);
-  right: -310px;
-  bottom: 290px;
+  right: -302px;
+  bottom: 494px;
+}
+
+.soe2{
+  color: rgb(100, 232, 255);
+  right: -493.2px;
+  bottom: 168px;
 }
 
 /* ICT */
 .ict{
-  right: -350px;
-  bottom: 150px;
+  color: rgb(124, 0, 146);
+  right: -364.5px;
+  bottom: 360px;
 }
 
 /* HS */
 .hs{
-  right: -150px;
-  bottom: 160px;
+  color: rgb(2, 133, 0);
+  right: -49.5px;
+  bottom: 344px;
 }
 /* DE */
 .de{
-  right: -170px;
-  bottom: 205px;
+  color: rgb(121, 214, 0);
+  right: -247px;
+  bottom: 420px;
 }
 
 /* BA */
 .ba{
-  right: -205px;
-  bottom: 100px;
+  color: rgb(139, 0, 0);
+  right: -162px;
+  bottom: 199px;
 }
 
 /* HMS */
 .hms{
-  right: -115px;
-  bottom: 130px;
+  color: rgb(255, 183, 50);
+  right: -122px;
+  bottom: 299.6px;
 }
 
 /* LSCT */
 .lsct{
-  right: -85px;
-  bottom: 132px;
+  color: rgb(255, 115, 0);
+  right: -37.5px;
+  bottom: 302px;
 }
 
 /* FMS */
 .fms{
-  right: -160px;
-  bottom: 140px;
+  color: rgb(195, 0, 205);
+  right: -133px;
+  bottom: 315px;
+}
+/* IDS */
+.ids{
+  color: rgb(90, 159, 255);
+  right: -133px;
+  bottom: 315px;
 }
 
   /* test */
@@ -241,9 +260,25 @@ button{
   cursor: pointer;
 }
 
+/* The IDS Close Button */
+.IDS-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.IDS-close:hover,
+.IDS-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .contact {
   position: relative;
   max-width: 190px;
   bottom:350px;
   left: 600px;
 }
+
