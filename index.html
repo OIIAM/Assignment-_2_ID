@@ -7,14 +7,48 @@
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
+        <nav class = "header"> 
+            <img src = "Images/NP_Name.jpg" alt = "NP">
+        </nav>
         <div class = "container"> 
             <div class = "bgimg">
                 <!-- <div> Hello </div> -->
-                <div class = "soe"> 
-                    <a href = "https://www.np.edu.sg/schools-courses/academic-schools/school-of-engineering">
-                        <i class="fa-solid fa-circle"></i>
-                    </a>
+                <!-- <div class = "info" id = "Popup">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <p class = "SOE"> Welcome to SOE!</p>
+            </div> -->
+            <!-- Trigger SOE Button-->
+            <button id = "SOE">
+                <i class="fa-solid fa-circle"></i>
+            </button>
+            <!--Modal-->
+            <div id = "Modals" class="modal">
+                <!-- Modal Content-->
+                <div class="SOE-Modal">
+                    <span class = "SOE-close">&times;</span> <!-- &times produces 1 'x'-->
+                    <h1 class = "SOE-h1">
+                        School of Engineering
+                    </h1>
+                    <h3 class = "SOE-h3">
+                        About the School
+                    </h3>
+                    <p class = "SOE-p"> Explore your passion for learning and innovation with a broad-based curriculum that trains you in core competencies and emerging technologies. Along the way, we will equip you with multidisciplinary skills to develop engineering projects which benefit the community and make your learning more purposeful. You could even be working with professors from NUS, NTU and SUTD on real-world projects in artificial intelligence and data analytics!</p>
                     
+                    <h3 class = "SOE-h3">
+                        Full-Time Courses Offered
+                    </h3>
+                    <p class = "SOE-p"> 
+                        <a href = "https://www.np.edu.sg/schools-courses/academic-schools/school-of-engineering/diploma-in-aerospace-engineering"> Diploma in Aerospace Engineering (AEG)</a>
+                    </p>
+
+                    <h3 class = "SOE-h3">
+                        
+                    </h3>
+                    <p class = "SOE-p"> 
+
+                    </p>
+                
                 </div>
             </div>
         </div>
@@ -22,3 +56,5 @@
         <script src="https://kit.fontawesome.com/a9ca8639dc.js" crossorigin="anonymous"></script>
     </body>
 </html>
+
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal-->
