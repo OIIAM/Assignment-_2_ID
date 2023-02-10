@@ -52,6 +52,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
+1. Making the map and buttons responsive.
+
 <!-- - Another feature idea -->
 
 ## Technologies Used
