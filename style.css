@@ -7,24 +7,6 @@
   background-repeat:no-repeat;
   background-position: center;
  }
- /* Header
- nav {
-  margin: 0px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  background: gray;
-  padding: 5px 20px;
-  
-}
- .header{
-  flex: 1;
- }
- .header img{
-  display: block;
-  width: 150px; 
-  margin-right: 30px; 
-} */
 
  /*Background*/
  .bgimg{
@@ -111,8 +93,8 @@ button{
 /* IDS */
 .ids{
   color: rgb(90, 159, 255);
-  right: -133px;
-  bottom: 315px;
+  right: -174px;
+  bottom: 370px;
 }
 
   /* test */
@@ -280,5 +262,10 @@ button{
   max-width: 190px;
   bottom:350px;
   left: 600px;
+}
+
+/* link */
+.container a{
+  text-decoration: none;
 }
 
