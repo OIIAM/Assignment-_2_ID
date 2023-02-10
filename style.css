@@ -97,8 +97,7 @@ button{
   bottom: 370px;
 }
 
-  /* test */
-  /* The Modal (background) */
+  /* The Modal */
 .modal{
   display:none;
   position: fixed; /* Stay in place */
