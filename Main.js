@@ -6,7 +6,7 @@
 //     SOE.classList.toggle('active');
 // })
 
-/* SOE */
+/* SOE 1 */
 var modalSOE = document.getElementById("SOEModals");
 
 var btnSOE = document.getElementById("SOE");
@@ -23,6 +23,25 @@ spanSOE.onclick = function() {
 window.onclick = function (event) {
 if (event.target == modalSOE) {
     modalSOE.style.display = "none";
+}
+}
+/* SOE2 */
+var modalSOE2 = document.getElementById("SOEModals");
+
+var btnSOE2 = document.getElementById("SOE2");
+
+var spanSOE2 = document.getElementsByClassName("SOE-close")[0];
+
+btnSOE2.onclick = function () {
+    modalSOE2.style.display = "block";
+}
+spanSOE2.onclick = function() {
+    modalSOE2.style.display = "none";
+}
+
+window.onclick = function (event) {
+if (event.target == modalSOE2) {
+    modalSOE2.style.display = "none";
 }
 }
 /* ICT */
